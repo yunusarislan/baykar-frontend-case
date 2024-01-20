@@ -1,5 +1,44 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.body {
+    background: linear-gradient(180deg, #FFFBEB 0%, #FFFFFF 89.63%);
+}
+
+.navbar .container-fluid {
+    padding: 1.5em 5em;
+}
+
+.navbar .container-fluid .navbar-brand {
+    color: #78350F;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+
+.navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    padding: 1em;
+    color: #78350F;
+}
+
+.navbar .container-fluid .collapse .navbar-nav .nav-item .btn {
+    height: 100%;
+    border-radius: 8px;
+    border: 2px solid var(--amber-900, #78350F);
+    color: #78350F;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0.03125rem;
+}
+
+@media screen and (max-width:990px) {
+    .navbar .container-fluid {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+    }
 }
