@@ -109,6 +109,56 @@
 
 /* ====== End First Section ====== */
 
+/* ====== Start Second Section ====== */
+
+.section-two {
+    margin-top: 5rem;
+}
+.section-two .container .section-two-card .section-two-card-header {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.section-two .container .section-two-card .section-two-card-header .header-icon {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.section-two .container .section-two-card .section-two-card-header .header-rectangle {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    opacity: 0.5;
+}
+
+.section-two .container .section-two-card .section-two-card-header .card-ellipse {
+    width: 45px;
+    height: 45px;
+    left: 40px;
+    position: absolute;
+    top: 0px;
+    border-radius: 20px;
+    opacity: 0.5 !important;
+    background: #A21CAF;
+}
+
+.section-two .container .section-two-card .content .section-two-card-title{
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 100%;
+    color: var(--Blue-Gray-900, #0F172A);
+}
+
+.section-two .container .section-two-card .content .section-two-card-text{
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 160%; 
+    color: var(--Blue-Gray-900, #0F172A);
+}
+
+/* ====== End Second Section ====== */
 
 
 
@@ -181,4 +231,59 @@
     }
 
     /* ====== End First Section  ====== */
+
+    .section-two {
+        margin-top: 3rem;
+        text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .section-two .container .section-two-card{
+        margin-bottom: 2rem;
+    }
+
+    .section-two .container .section-two-card .section-two-card-header {
+        position: relative;
+        text-align: center;
+    }
+    
+    .section-two .container .section-two-card .section-two-card-header .header-icon {
+        position: relative;
+        text-align: center;
+    }
+    
+    .section-two .container .section-two-card .section-two-card-header .header-rectangle {
+        position: relative;
+        opacity: 0.5;
+        margin-left: -75px;
+        margin-top: -20px;
+    }
+    
+    .section-two .container .section-two-card .section-two-card-header .card-ellipse {
+        width: 45px;
+        height: 45px;
+        top: 0%;
+        left: 52%;
+        position: absolute;
+        border-radius: 20px;
+        opacity: 0.5 !important;
+        background: #A21CAF;
+    }
+    
+    .section-two .container .section-two-card .content .section-two-card-title{
+        text-align: center;
+        font-size: 1.25rem;
+        font-weight: 500;
+        line-height: 100%;
+        color: var(--Blue-Gray-900, #0F172A);
+    }
+    
+    .section-two .container .section-two-card .content .section-two-card-text{
+        font-size: 1.125rem;
+        font-weight: 400;
+        line-height: 160%; 
+        word-break:keep-all;
+        color: var(--Blue-Gray-900, #0F172A);
+    }
 }
