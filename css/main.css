@@ -175,11 +175,11 @@
     z-index: 1 !important;
 }
 
-.section-three .container  .section-three-header {
+.section-three .container .section-three-header {
     margin-top: 5rem;
 }
 
-.section-three .container  .section-three-header .content h2 {
+.section-three .container .section-three-header .content h2 {
     font-weight: 800;
     line-height: 110%;
     font-size: 3.5rem;
@@ -187,7 +187,7 @@
 }
 
 
-.section-three .container  .section-three-header .content .btn {
+.section-three .container .section-three-header .content .btn {
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 1.5rem;
@@ -199,11 +199,11 @@
 
 }
 
-.section-three .container  .section-three-card {
+.section-three .container .section-three-card {
     z-index: 1;
 }
 
-.section-three .container  .section-three-card .card .btn {
+.section-three .container .section-three-card .card .btn {
     font-size: 1.25rem;
     font-weight: 500;
     line-height: 1.5rem;
@@ -219,7 +219,7 @@
     padding: 1rem;
 }
 
-.section-three .backlights  {
+.section-three .backlights {
     margin-top: 5rem;
     position: absolute;
 }
@@ -308,6 +308,162 @@
     line-height: 160%;
     color: var(--white, #FFF);
 }
+
+
+
+.section-four {
+    position: relative;
+    margin: 10rem 5rem;
+}
+
+.section-four .card {
+    position: relative;
+    height: 31rem;
+    border-radius: 1.875rem;
+    background: var(--White, #FFF);
+    z-index: -1;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.07), 0px 20px 25px -5px rgba(0, 0, 0, 0.10);
+}
+
+.section-four .card .card-body .card-title {
+    margin-left: 5rem;
+    margin-top: 7rem;
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 110%;
+    color: var(--Blue-Gray-900, #0F172A);
+}
+
+.section-four .card .card-body ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 5rem;
+    margin-top: 1.5rem;
+}
+
+.section-four .card .card-body ul li {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 180%;
+    color: var(--Blue-Gray-900, #0F172A);
+}
+
+.section-four .card .card-body ul li img {
+    width: 2rem;
+    height: 1.5rem;
+}
+
+.section-four .card .card-body button {
+    margin-left: 5rem;
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0.03125rem;
+    color: #78350F;
+    border-radius: 0.5rem;
+    border: 2px solid var(--amber-900, #78350F);
+}
+
+
+.section-four .card .deco-video {
+    width: 40.5625rem;
+    height: 30.07731rem;
+    position: absolute;
+    right: -4rem;
+    top: -4rem;
+}
+
+.section-four .card .deco-video .screen {
+    position: absolute;
+    max-height: 21.875rem;
+    height: 100%;
+    border-radius: 1.25rem;
+    border: 5px solid var(--White, #FFF);
+    z-index: 1;
+    background: var(--White, #FFF);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.07), 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
+    margin-top: 10rem;
+}
+
+.section-four .card .deco-video .screen figure {
+    margin: -0.2rem 0.2rem;
+}
+
+.section-four .card .deco-video .screen figure img {
+    border-radius: 1.25rem;
+}
+
+.section-four .main-shape {
+    position: absolute;
+    width: 41.64275rem;
+    height: 13.62088rem;
+    top: 14rem;
+    right: 2rem;
+    transform: rotate(-45deg);
+    background: var(--Amber-200, #FDE68A);
+}
+
+.section-four .rectangle-pink {
+    position: absolute;
+    width: 13.625rem;
+    height: 13.625rem;
+    top: 8.5rem;
+    right: 0rem;
+    border-radius: 3.125rem;
+    opacity: 0.75;
+    background: var(--Pink-700, #BE185D);
+}
+
+.section-four .rectangle-blue {
+    position: absolute;
+    width: 3.6875rem;
+    height: 3.75rem;
+    top: -1.5rem;
+    right: 6rem;
+    border-radius: 3.125rem;
+    opacity: 0.75;
+    z-index: 1;
+    background: var(--Blue-Light-700, #0369A1);
+}
+
+.section-four .rectangle-green {
+    position: absolute;
+    width: 5.3125rem;
+    height: 5.375rem;
+    top: 20rem;
+    right: 30rem;
+    z-index: 1;
+    border-radius: 3.125rem;
+    opacity: 0.75;
+    background: var(--Green-700, #15803D);
+}
+
+.section-four .rectangle-brown {
+    position: absolute;
+    top: 12rem;
+    right: 36rem;
+    width: 5.625rem;
+    height: 5.625rem;
+    border-radius: 1.875rem;
+    opacity: 0.75;
+    background: var(--Amber-700, #B45309);
+
+}
+
+.section-four .rectangle-purple {
+    position: absolute;
+    width: 4.625rem;
+    height: 4.625rem;
+    top: 5rem;
+    right: 11rem;
+    border-radius: 1.875rem;
+    opacity: 0.75;
+    background: var(--Fuchsia-700, #A21CAF);
+}
+
 
 
 
@@ -443,14 +599,14 @@
 
     .section-three .container .section-three-header .content {
         display: block !important;
-        text-align: center; 
+        text-align: center;
     }
 
-    .section-three .container  .section-three-header .content h2{
+    .section-three .container .section-three-header .content h2 {
         font-size: 2rem;
     }
 
-    .section-three .container  .section-three-header .content .btn {
+    .section-three .container .section-three-header .content .btn {
         margin-top: 2rem;
         padding: 1.25rem 1.5rem;
     }
@@ -460,10 +616,10 @@
     }
 
     .rectangle-pink {
-        margin-top: 29rem; 
+        margin-top: 29rem;
         margin-left: 2.28rem;
-        width: 12.63088rem; 
-        height: 12.63088rem; 
+        width: 12.63088rem;
+        height: 12.63088rem;
         border-radius: 3.125rem;
     }
 
@@ -479,10 +635,94 @@
 
     .rectangle-green,
     .rectangle-orange,
-    .rectangle-blue{
+    .rectangle-blue {
         display: none;
     }
 
     /* ====== End Third Section  ====== */
+
+
+    .section-four {
+        position: relative;
+        margin: 2rem 2rem !important;
+    }
+
+    .section-four .card {
+        padding: 0;
+        border-radius: 1.875rem;
+        background: var(--White, #FFF);
+        box-shadow: none
+    }
+
+    .section-four .card .card-body .card-title {
+        margin: 2rem 1rem;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .section-four .card .card-body ul {
+        list-style-type: none;
+        padding: 0;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .section-four .card .card-body ul li {
+        font-size: 1rem;
+        line-height: 140%;
+    }
+
+    .section-four .card .card-body button {
+        margin: 1.5rem auto;
+
+        font-size: 1.25rem;
+        padding: 1rem;
+        font-size: 1.25rem;
+        font-weight: 500;
+        line-height: 1.5rem;
+        letter-spacing: 0.03125rem;
+        color: #78350F;
+        border-radius: 0.5rem;
+        border: 2px solid var(--amber-900, #78350F);
+    }
+
+    .section-four .card .deco-video {
+        height: 14.625rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-four .card .deco-video .screen {
+        position: absolute;
+        max-height: 21.875rem;
+        height: 100%;
+        border-radius: 1.25rem;
+        border: 5px solid var(--White, #FFF);
+        z-index: 1;
+        background: var(--White, #FFF);
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.07), 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
+        margin-top: 10rem;
+    }
+
+    .section-four .card .deco-video .screen .figure {
+        position: absolute;
+        max-height: 21.875rem;
+        height: 100%;
+        border-radius: 1.25rem;
+        border: 5px solid var(--White, #FFF);
+        z-index: 1;
+        background: var(--White, #FFF);
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.07), 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
+        margin-top: 10rem;
+    }
+
+    .section-four .card .deco-video .screen .figure img {
+        padding: 0;
+    }
+
+
 
 }
