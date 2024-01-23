@@ -161,6 +161,8 @@
 
 /* ====== End Second Section ====== */
 
+/* ====== Start Third Section ====== */
+
 .section-three {
     margin-top: 5rem;
     position: relative;
@@ -309,25 +311,24 @@
     color: var(--white, #FFF);
 }
 
+/* ====== End Third Section ====== */
 
+/* ====== Start Fourth Section ====== */
 
 .section-four {
-    position: relative;
     margin: 10rem 5rem;
 }
 
 .section-four .card {
-    position: relative;
     height: 31rem;
     border-radius: 1.875rem;
     background: var(--White, #FFF);
-    z-index: -1;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.07), 0px 20px 25px -5px rgba(0, 0, 0, 0.10);
 }
 
 .section-four .card .card-body .card-title {
     margin-left: 5rem;
-    margin-top: 7rem;
+    margin-top: 6rem;
     font-size: 3.5rem;
     font-weight: 800;
     line-height: 110%;
@@ -367,107 +368,128 @@
     border: 2px solid var(--amber-900, #78350F);
 }
 
-
-.section-four .card .deco-video {
-    width: 40.5625rem;
-    height: 30.07731rem;
-    position: absolute;
-    right: -4rem;
-    top: -4rem;
+.section-four .card .card-body .deco-video {
+    margin-top: 2rem;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
-.section-four .card .deco-video .screen {
-    position: absolute;
-    max-height: 21.875rem;
-    height: 100%;
+.section-four .card .card-body .deco-video .screen {
+    width: 100%;
+    height: 21.875rem;
+    text-align: center;
+    position: relative;
+    z-index: 1;
     border-radius: 1.25rem;
     border: 5px solid var(--White, #FFF);
-    z-index: 1;
-    background: var(--White, #FFF);
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.07), 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
-    margin-top: 10rem;
 }
 
-.section-four .card .deco-video .screen figure {
-    margin: -0.2rem 0.2rem;
+.section-four .card .card-body .deco-video .screen .browser-header {
+    background-color: #ffffff;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.section-four .card .deco-video .screen figure img {
-    border-radius: 1.25rem;
+.section-four .card .card-body .deco-video .screen .browser-controls {
+    display: flex;
+    align-items: center;
 }
 
-.section-four .main-shape {
+.section-four .card .card-body .deco-video .screen .browser-controls img {
+    margin-right: 8px;
+}
+
+.section-four .card .card-body .deco-video .screen .img-fluid {
+    width: 100%;
+    height: 100%;
+    /* margin-top: -1rem ; */
+    object-fit: cover;
+    border-radius: 0 0 1.25rem 1.25rem;
+}
+
+.shape-container {
+    position: relative;
+    z-index: 0
+}
+
+.shape {
     position: absolute;
-    width: 41.64275rem;
-    height: 13.62088rem;
-    top: 14rem;
-    right: 2rem;
-    transform: rotate(-45deg);
-    background: var(--Amber-200, #FDE68A);
-}
-
-.section-four .rectangle-pink {
-    position: absolute;
-    width: 13.625rem;
-    height: 13.625rem;
-    top: 8.5rem;
-    right: 0rem;
-    border-radius: 3.125rem;
     opacity: 0.75;
-    background: var(--Pink-700, #BE185D);
 }
 
-.section-four .rectangle-blue {
-    position: absolute;
-    width: 3.6875rem;
-    height: 3.75rem;
-    top: -1.5rem;
-    right: 6rem;
-    border-radius: 3.125rem;
-    opacity: 0.75;
-    z-index: 1;
-    background: var(--Blue-Light-700, #0369A1);
-}
-
-.section-four .rectangle-green {
-    position: absolute;
-    width: 5.3125rem;
-    height: 5.375rem;
-    top: 20rem;
-    right: 30rem;
-    z-index: 1;
-    border-radius: 3.125rem;
-    opacity: 0.75;
-    background: var(--Green-700, #15803D);
-}
-
-.section-four .rectangle-brown {
-    position: absolute;
-    top: 12rem;
-    right: 36rem;
+.shape.shape1 {
     width: 5.625rem;
     height: 5.625rem;
+    top: -9rem;
+    right: 36rem;
+    background-color: #B45309;
     border-radius: 1.875rem;
-    opacity: 0.75;
-    background: var(--Amber-700, #B45309);
-
 }
 
-.section-four .rectangle-purple {
-    position: absolute;
+.shape.shape2 {
+    width: 41.64275rem;
+    height: 13.62088rem;
+    top: -6rem;
+    right: -3rem;
+    background-color: #FDE68A;
+    transform: rotate(-45deg);
+    opacity: 1;
+}
+
+.shape.shape3 {
+    width: 5.3125rem;
+    height: 5.375rem;
+    top: 10rem;
+    right: 24rem;
+    background-color: #15803D;
+    border-radius: 3.125rem;
+    z-index: 1 !important;
+}
+
+.shape.shape4 {
     width: 4.625rem;
     height: 4.625rem;
-    top: 5rem;
-    right: 11rem;
+    top: 10rem;
+    right: 6rem;
+    background-color: #A21CAF;
     border-radius: 1.875rem;
-    opacity: 0.75;
-    background: var(--Fuchsia-700, #A21CAF);
 }
 
+.shape.shape5 {
+    width: 13.625rem;
+    height: 13.625rem;
+    top: 6rem;
+    right: -5rem;
+    background-color: #BE185D;
+    border-radius: 3.125rem;
+}
 
+.shape.shape6 {
+    width: 3.6875rem;
+    height: 3.75rem;
+    top: -16rem;
+    right: 1rem;
+    background-color: #0369A1;
+    border-radius: 3.125rem;
+}
+
+/* ====== End Fourth Section ====== */
+
+/* ====== Start Fifth Section  ====== */
+
+
+/* ====== End Fifth Section  ====== */
 
 
 @media screen and (max-width:768px) {
+
     .navbar .container-fluid {
         display: flex;
         justify-content: space-between;
@@ -538,6 +560,7 @@
     /* ====== End First Section  ====== */
 
     /* ====== Start Second Section  ====== */
+
     .section-two {
         margin-top: 3rem;
         text-align: center;
@@ -641,7 +664,7 @@
 
     /* ====== End Third Section  ====== */
 
-
+    /* ====== Start Fourth Section  ====== */
     .section-four {
         position: relative;
         margin: 2rem 2rem !important;
@@ -651,7 +674,8 @@
         padding: 0;
         border-radius: 1.875rem;
         background: var(--White, #FFF);
-        box-shadow: none
+        box-shadow: none;
+        height: auto;
     }
 
     .section-four .card .card-body .card-title {
@@ -676,7 +700,6 @@
 
     .section-four .card .card-body button {
         margin: 1.5rem auto;
-
         font-size: 1.25rem;
         padding: 1rem;
         font-size: 1.25rem;
@@ -686,43 +709,84 @@
         color: #78350F;
         border-radius: 0.5rem;
         border: 2px solid var(--amber-900, #78350F);
+        position: relative;
+        z-index: 1
     }
 
-    .section-four .card .deco-video {
-        height: 14.625rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .section-four .card .card-body .deco-video {
+        height: auto;
     }
 
-    .section-four .card .deco-video .screen {
-        position: absolute;
-        max-height: 21.875rem;
-        height: 100%;
-        border-radius: 1.25rem;
-        border: 5px solid var(--White, #FFF);
-        z-index: 1;
-        background: var(--White, #FFF);
-        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.07), 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
-        margin-top: 10rem;
+    .section-four .card .card-body .deco-video .screen {
+        height: auto;
+        margin-top: 0rem;
+        margin-bottom: 2rem;
+        position: relative;
+        z-index: 1
     }
 
-    .section-four .card .deco-video .screen .figure {
-        position: absolute;
-        max-height: 21.875rem;
-        height: 100%;
-        border-radius: 1.25rem;
-        border: 5px solid var(--White, #FFF);
-        z-index: 1;
-        background: var(--White, #FFF);
-        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.07), 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
-        margin-top: 10rem;
+    .shape.shape1 {
+        width: 3.47269rem;
+        height: 3.47269rem;
+        top: -9.5rem;
+        right: 31rem;
+        background-color: #B45309;
+        border-radius: 1.875rem;
     }
 
-    .section-four .card .deco-video .screen .figure img {
-        padding: 0;
+    .shape.shape2 {
+        width: 25.70881rem;
+        height: 8.40906rem;
+        top: -6rem;
+        right: -3rem;
+        background-color: #FDE68A;
+        transform: rotate(-45deg);
+        opacity: 1;
+        z-index: 1
     }
 
+    .shape.shape3 {
+        width: 3.0625rem;
+        height: 3.125rem;
+        top: 5rem;
+        right: 13.5rem;
+        background-color: #15803D;
+        border-radius: 3.125rem;
+        z-index: 2
+    }
 
+    .shape.shape4 {
+        width: 2.85531rem;
+        height: 2.85531rem;
+        top: 5rem;
+        right: 4rem;
+        background-color: #A21CAF;
+        border-radius: 1.875rem;
+    }
+
+    .shape.shape5 {
+        width: 8.41163rem;
+        height: 8.41163rem;
+        top: 2rem;
+        right: -2.5rem;
+        background-color: #BE185D;
+        border-radius: 3.125rem;
+    }
+
+    .shape.shape6 {
+        width: 2.27656rem;
+        height: 2.31513rem;
+        top: -11.5rem;
+        right: -0.5rem;
+        background-color: #0369A1;
+        border-radius: 3.125rem;
+        z-index: 2
+    }
+
+    /* ====== End Fourth Section  ====== */
+
+    /* ====== Start Fifth Section  ====== */
+
+    /* ====== End Fifth Section  ====== */
 
 }
